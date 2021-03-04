@@ -102,3 +102,7 @@ dist
 
 # TernJS port file
 .tern-port
+
+mongo-rs0-1/data
+mongo-rs0-2/data
+mongo-rs0-3/data
