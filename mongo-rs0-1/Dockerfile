@@ -6,9 +6,6 @@ WORKDIR /usr/src/configs
 # Copy config files
 COPY mongo.conf .
 
-# Copy key file
-COPY mongodb.key .
-
 EXPOSE 27017
 
 CMD ["--config", "./mongo.conf"]
