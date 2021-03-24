@@ -33,3 +33,8 @@
 
 7 directories, 9 files
 ```
+
+```bash
+openssl rand -base64 741 > mongodb.key
+chmod 600 mongodb.key
+```
