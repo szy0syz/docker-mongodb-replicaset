@@ -33,10 +33,11 @@ mongo <<EOF
    admin = db.getSiblingDB("admin");
    admin.createUser(
      {
-	user: "admin",
+	    user: "admin",
         pwd: "password",
         roles: [ { role: "root", db: "admin" } ]
      });
-     db.getSiblingDB("admin").auth("admin", "password");
-     rs.status();
+   db.getSiblingDB("admin").auth("admin", "password");
+   rs.status();
 EOF
+
