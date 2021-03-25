@@ -2,15 +2,21 @@
 
 > 一个 docker mongodb 副本集的模板
 
+## Version
+
+- v1: 不带认证的集群
+- v2: 带认证的集群(未测试成功)
+- v3: s
+
 ## Url for the different mongo containers
 
-* mongodb://mongo-rs0-1
-* mongodb://mongo-rs0-2
-* mongodb://mongo-rs0-3
+- mongodb://mongo-rs0-1
+- mongodb://mongo-rs0-2
+- mongodb://mongo-rs0-3
 
 ## Note
 
-* `setup` 用来配置集群的，开一下就关了
+> `setup` 用来配置集群的，开一下就关了
 
 ```bash
 .
